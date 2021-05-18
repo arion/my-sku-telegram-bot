@@ -1,0 +1,21 @@
+{
+  "name": "myskubot",
+  "version": "1.0.0",
+  "description": "Send Rss Feed from mysku.ru to telegram channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "rss-parser": "^3.12.0",
+    "sanitize-html": "^2.3.3",
+    "telegraf": "^4.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
